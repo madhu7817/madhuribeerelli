@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int s,t;
+    scanf("%d%d",&s,&t);
+     printf("The number of students in each team is %d and left out is %d",s/t,s%t);
+    return 0;
+}
